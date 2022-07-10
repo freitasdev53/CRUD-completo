@@ -1,0 +1,54 @@
+body{
+    background-color:#ececec;
+    
+}
+*{
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    
+}
+/*INDEX*/
+.c_crud{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.c_filtros{
+    justify-content:center;
+    display:flex;
+    flex-direction:row;
+    width:100%;
+}
+
+.c_filtros form{
+    margin:10px;
+}
+.c_filtros input{
+    padding:3px;
+    border:solid white;
+}
+.c_filtros select{
+    padding:3px;
+    border:solid white;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+.c_geral input{
+  padding-bottom:7px;
+}
+.c_geral button{
+    margin-top:1px;
+}
+.c_filtros button{
+    padding:6px;
+    background-color:rgb(46, 175, 235);
+    color:white;
+    border:none;
+}
+
+
+/*INCLUDE*/
+
+/*DADOS*/
+
+/*EDIT*/
